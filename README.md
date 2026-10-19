@@ -1,5 +1,6 @@
 # luasnip-latex-snippets
 
+This fork was made to make snippets more closely resemble the functionality of [Obsidian's LaTeX Suite plugin](https://github.com/artisticat1/obsidian-latex-suite).
 A port of [Gilles Castel's](https://github.com/gillescastel/latex-snippets)
 snippets for the [LuaSnip Engine](https://github.com/L3MON4D3/LuaSnip).
 
