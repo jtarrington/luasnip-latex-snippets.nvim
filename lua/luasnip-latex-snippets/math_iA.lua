@@ -95,6 +95,10 @@ function M.retrieve(is_math)
     parse_snippet({ trig = "cb", name = "Cube ^3" }, "^3 "),
     parse_snippet({ trig = "sr", name = "Square ^2" }, "^2"),
 
+    parse_snippet({ trig = '"', name = "Text environment" }, "\\text{$1}$0"),
+    parse_snippet({ trig = "rm", name = "Rm environment" }, "\\mathrm{$1}$0"),
+    parse_snippet({ trig = "bf", name = "bf environment" }, "\\mathbf{$1}$0"),
+
     parse_snippet({ trig = "EE", name = "exists" }, "\\exists "),
     parse_snippet({ trig = "AA", name = "forall" }, "\\forall "),
     parse_snippet({ trig = "xnn", name = "xn" }, "x_{n}"),
